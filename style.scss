@@ -54,6 +54,7 @@ body{
         height: 100%;
         padding: 1rem;
         width: 60%;
+        padding-left: 2rem;
         .line{
             text-decoration: none;
             color: $tatiarycolor;
@@ -73,7 +74,7 @@ body{
             .all{
                 text-decoration: none;
                 color: $tatiarycolor;
-                border: 1px solid $brandcolor;
+                border: 2px solid $brandcolor;
                 padding: 1rem;
                 border-radius: 200px;  
             }
@@ -184,7 +185,7 @@ body{
             align-items: center;
             width: 30%;
             margin-top: 2rem;
-            border: 1px solid $brandcolor;
+            border: 2px solid $brandcolor;
             border-radius: 10px;
             padding: 1rem;
             font-size: .50rem; 
@@ -248,7 +249,7 @@ body{
         background-color: $secondarycolor;
         .whitepart{
             background-color: $primarycolor;
-            
+            border-radius: 5px;
             padding: 1.10rem;
         }
         .orderd{
@@ -300,7 +301,7 @@ body{
                 }
                 display: flex;
                 gap: 3rem;
-                margin-top: 25rem;
+                margin-top: 20rem;
                 font-size: 1.50rem;
             }
         }

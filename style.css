@@ -51,6 +51,7 @@ body {
   height: 100%;
   padding: 1rem;
   width: 60%;
+  padding-left: 2rem;
 }
 .dashboard .hero .line {
   text-decoration: none;
@@ -72,7 +73,7 @@ body {
 .dashboard .hero .anks .all {
   text-decoration: none;
   color: black;
-  border: 1px solid #1BA09D;
+  border: 2px solid #1BA09D;
   padding: 1rem;
   border-radius: 200px;
 }
@@ -181,7 +182,7 @@ body {
   align-items: center;
   width: 30%;
   margin-top: 2rem;
-  border: 1px solid #1BA09D;
+  border: 2px solid #1BA09D;
   border-radius: 10px;
   padding: 1rem;
   font-size: 0.5rem;
@@ -239,6 +240,7 @@ body {
 }
 .dashboard .lastbar .whitepart {
   background-color: white;
+  border-radius: 5px;
   padding: 1.1rem;
 }
 .dashboard .lastbar .orderd {
@@ -275,7 +277,7 @@ body {
 .dashboard .lastbar .bottompart .place {
   display: flex;
   gap: 3rem;
-  margin-top: 25rem;
+  margin-top: 20rem;
   font-size: 1.5rem;
 }
 .dashboard .lastbar .bottompart .place a {
