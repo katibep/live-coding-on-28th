@@ -16,6 +16,13 @@ body {
   justify-content: end;
   position: relative;
 }
+@media (max-width: 768px) {
+  .dashboard {
+    display: flex;
+    background-color: rosybrown;
+    flex-direction: column;
+  }
+}
 .dashboard .sidebar {
   min-height: 100%;
   width: 15%;
@@ -25,6 +32,9 @@ body {
   padding: 2rem;
   position: fixed;
   left: 0;
+}
+.dashboard .sidebar c {
+  display: none;
 }
 .dashboard .sidebar .topbar {
   display: flex;
@@ -53,6 +63,11 @@ body {
   width: 60%;
   padding-left: 2rem;
 }
+@media (max-width: 768px) {
+  .dashboard .hero {
+    width: 100%;
+  }
+}
 .dashboard .hero .line {
   text-decoration: none;
   color: black;
@@ -62,6 +77,13 @@ body {
   display: flex;
   gap: 2rem;
   margin-top: 2rem;
+}
+@media (max-width: 768px) {
+  .dashboard .hero .anks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+  }
 }
 .dashboard .hero .anks a {
   text-decoration: none;
@@ -79,15 +101,21 @@ body {
 }
 .dashboard .hero .cards {
   display: flex;
-  gap: 3rem;
+  gap: 1rem;
   width: 100%;
 }
-.dashboard .hero .cards .texts {
+@media (max-width: 768px) {
+  .dashboard .hero .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    width: 100%;
+  }
+}
+.dashboard .hero .cards .card {
   text-decoration: none;
+  width: 30%;
   color: black;
-}
-.dashboard .hero .cards .card1 {
-  width: 100%;
   display: flex;
   gap: 2rem;
   font-size: 1rem;
@@ -96,12 +124,22 @@ body {
   margin-top: 2rem;
   border-radius: 10px;
 }
-.dashboard .hero .cards .card1 .order {
+@media (max-width: 768px) {
+  .dashboard .hero .cards .card {
+    width: 100%;
+  }
+}
+.dashboard .hero .cards .card .order {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.dashboard .hero .cards .card1 .tables {
+@media (max-width: 768px) {
+  .dashboard .hero .cards .card .order {
+    width: 100%;
+  }
+}
+.dashboard .hero .cards .card .tables {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -155,6 +193,13 @@ body {
   gap: 1rem;
   margin-top: 2rem;
 }
+@media (max-width: 768px) {
+  .dashboard .hero .menus .items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
 .dashboard .hero .menus .items a {
   text-decoration: none;
   color: black;
@@ -162,6 +207,11 @@ body {
   width: 20%;
   border-radius: 10px;
   padding: 8px;
+}
+@media (max-width: 768px) {
+  .dashboard .hero .menus .items a {
+    width: 50%;
+  }
 }
 .dashboard .hero .menus .items .special {
   text-decoration: none;
@@ -171,9 +221,22 @@ body {
   border-radius: 10px;
   padding: 8px;
 }
+@media (max-width: 768px) {
+  .dashboard .hero .menus .items .special {
+    width: 50%;
+  }
+}
 .dashboard .hero .food-cards {
   display: flex;
   gap: 2rem;
+}
+@media (max-width: 768px) {
+  .dashboard .hero .food-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    width: 100%;
+  }
 }
 .dashboard .hero .food-cards .card2 {
   display: flex;
@@ -186,6 +249,11 @@ body {
   border-radius: 10px;
   padding: 1rem;
   font-size: 0.5rem;
+}
+@media (max-width: 768px) {
+  .dashboard .hero .food-cards .card2 {
+    width: 100%;
+  }
 }
 .dashboard .hero .food-cards .card2 .top-card {
   background-color: #B3B3B3;
@@ -210,6 +278,11 @@ body {
   padding: 1rem;
   font-size: 0.5rem;
 }
+@media (max-width: 768px) {
+  .dashboard .hero .food-cards .card {
+    width: 100%;
+  }
+}
 .dashboard .hero .food-cards .card .top-card {
   background-color: #B3B3B3;
   width: 100%;
@@ -229,6 +302,13 @@ body {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 768px) {
+  .dashboard .hero .foodimages {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  }
+}
 .dashboard .hero .foodimages .aplle {
   width: 100px;
   margin-top: 2rem;
@@ -237,6 +317,16 @@ body {
   padding-top: 1rem;
   padding-left: 1.5rem;
   background-color: #B3B3B3;
+}
+@media (max-width: 768px) {
+  .dashboard .lastbar {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .dashboard .lastbar {
+    padding-left: 0rem;
+  }
 }
 .dashboard .lastbar .whitepart {
   background-color: white;
